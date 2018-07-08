@@ -38,7 +38,7 @@ h1{
     background: blue;
     color: white;
 }
-#colorDisplay{
+#colorDisplay, #rgb{
     font-size: 200%;
 }
 button{
@@ -63,3 +63,37 @@ button:hover{
     color: white;
     background: steelblue;
 }
+#info,#close{
+    color: steelblue;
+}
+#infodiv{
+    padding-top: 450px; 
+}
+@keyframes para{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.25;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.75;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.instructions{
+    display: block;
+    animation: para 1s;
+    color: white;
+    /* line-height: 1.1; */
+    padding-top: 0.1px;
+    padding-left: 10px;
+    font-weight: normal;
+    margin: 0;
+}
+
