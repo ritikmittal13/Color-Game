@@ -63,7 +63,7 @@ button:hover{
     color: white;
     background: steelblue;
 }
-#info,#close{
+#info{
     color: steelblue;
 }
 #infodiv{
@@ -100,4 +100,7 @@ button:hover{
     align-self: center;
     height: 350px;
     width: 350px;
+}
+#close{
+    color: lightblue;
 }
