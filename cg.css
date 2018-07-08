@@ -96,4 +96,8 @@ button:hover{
     font-weight: normal;
     margin: 0;
 }
-
+#rgbphoto{
+    align-self: center;
+    height: 350px;
+    width: 350px;
+}
